@@ -7,7 +7,7 @@ CRYPTOWL is a simple web application written in Python (Flask) for sending and r
 It uses:
 
 * **DB**: MariaDB or MySQL + PyMySql
-* **Encryption**: pycriptodome, cryptography and secrets
+* **Encryption**: pycryptodome, cryptography and secrets
 * **WSGI HTTP Server**: Gunicorn
 
 ### Installation
