@@ -47,6 +47,14 @@ Make other Gunicorn and application configuration changes if needed.
 gunicorn --config gunicorn_config.py app:app
 ```
 
+### Tests
+
+To run tests simply execute this command while in the root diectory of the project:
+```
+python3 -B -m pytest -v tests/test_app.py
+```
+
+
 ### Recommendations
 
 As Gunicorn developers advise on [their web page](https://gunicorn.org/#deployment) you should use Nginx HTTP server in pair with Gunicorn. How to setup all of it? Just google it or read the Gunicorn [official manual](https://docs.gunicorn.org/en/latest/deploy.html).
