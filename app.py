@@ -115,9 +115,6 @@ def check_select_from_db_table(message_address, key_hash):
 
         return True
 # --->
-
-
-init_db()
 ### --->
 
 
@@ -274,5 +271,6 @@ def read_message():
 # --->
 
 if __name__ == '__main__':
+    init_db()
     app.run()
 ### --->
